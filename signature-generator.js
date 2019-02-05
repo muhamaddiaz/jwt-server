@@ -1,7 +1,5 @@
 const crypto = require('crypto');
 const hash = crypto.createHash('sha256');
-// const header = require('./header.json');
-// const payload = require('./payload.json');
 
 function jwtTokenGenerator(header, payload) {
   let headerString = JSON.stringify(header);
@@ -20,4 +18,3 @@ function jwtTokenGenerator(header, payload) {
 }
 
 exports.jwtTokenGenerator = jwtTokenGenerator;
-
