@@ -10,7 +10,7 @@ function jwtTokenGenerator(header, payload) {
 
   let headerPayload = `${headerBase64}.${payloadBase64}`;
 
-  let signature = hash.update(headerPayload).digest('hex');
+  let signature = Buffer.from(hash.update(headerPayload).digest('hex')).toString('base64');;
 
   let jwt = `${headerPayload}.${signature}`;
 
