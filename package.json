@@ -1,0 +1,23 @@
+{
+  "name": "jwt-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "signature-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhamaddiaz/jwt-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhamaddiaz/jwt-server/issues"
+  },
+  "homepage": "https://github.com/muhamaddiaz/jwt-server#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
